@@ -1,0 +1,111 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgb(211, 166, 70) 18%, rgb(207, 181, 123) 63%, rgb(196, 179, 134) 100%);
+   
+    color: #3b2929;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgb(211, 166, 70) 18%, rgb(207, 181, 123) 63%, rgb(196, 179, 134) 100%);
+   
+    
+}
+
+header .logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(173, 84, 0);
+  font-family: 'Times New Roman', Times, serif;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: rgb(173, 84, 0);
+    font-size: 25px;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgb(211, 166, 70) 18%, rgb(207, 181, 123) 63%, rgb(196, 179, 134) 100%);
+   
+}
+
+.banner .text {
+    max-width: 50%;
+    font-size: larger;
+}
+
+.banner h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.banner p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.banner .btn {
+    padding: 10px 20px;
+    background-color: #a56d5d;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.banner img {
+    max-width: 50%;
+    border-radius: 50px;
+    margin-right: 50%;
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #a56d5d;
+    color: beige;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main {
+        padding: 15px;
+        margin: 10px;
+    }
+}
